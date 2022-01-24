@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Coder's Quiz</title>
+</head>
+
+<body>
+    <div>
+        <div id="title" class="title">Coder's Quiz</div>
+        <div class="startBox">
+            <h2 class="startTitle">Thank you for visiting The Coder's Quiz. Once you click start you have 15 minutes to complete the quiz.</h2>
+            <h2 class="startTitle"><u>Press the arrow button after you select your answer. Wrong answers subtract 10 seconds from the timer so think before you click.</u></h2>
+            <h2 class="startTitle">Once an answer is clicked, it is selected, but you can keep choosing different answers until you press the submit button or time runs out. If you have not pressed the submit button, your score will not be saved. Your scores only are saved
+                on your local computer.</h2>
+            <button id="startBtn">Start</button>
+            <button id="scoreBtn">Get Scores</button>
+        </div>
+        <span id="timer"></span>
+        <button id="backBtn">&#171</button>
+        <button id="nextBtn">&#187</button>
+        <div id="exit">
+            <button id="exitBtn">Exit</button>
+        </div>
+        <div id="finish">
+            <button id="submit">Submit</button>
+        </div>
+        <ol id="quiz"></ol>
+        <div id="scores"></div>
+    </div>
+        
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="./JS/CQ.js"></script>
+</body>
+
+</html>
