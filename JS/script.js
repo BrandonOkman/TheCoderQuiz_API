@@ -54,21 +54,21 @@ timer.setAttribute('class', 'timer');
 // startBox Text
 startBox.textContent = "Thank you for visiting The Coder's Quiz. Once you click start you have 15 minutes to complete the quiz.";
 
-// Question1
+// Q1
 const q1 = '1. What basic JavaScript method prints  a message to the developer?';
 // console.log()
 const oneA = "console.error()";
 const oneB = "console.log()";
 const oneC = "window.print()";
 const oneD = "window.open()";
-// 2
+// Q2
 const q2 = '2. Choose the option that is not part of the 3 "stack"s of web development?';
 // Front end, Back end, Full stack
 const twoA = "Testing Frameworks";
 const twoB = "Backend";
 const twoC = "Front End";
 const twoD = "Full Stack";
-// 3
+// Q3
 const q3 = '3. What is the difference between a "var" and a "const" in JavaScript?';
 // A var is a value that can be changed multiple times 
 const q4 = '4. What does the acronym "API" stand for?';;
