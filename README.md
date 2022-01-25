@@ -7,7 +7,7 @@
 * Web Developer's Contact
 ## Job Task
 The job task is to build a timed coding quiz with multiple-choice questions. The app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code.
-* https://github.com/BrandonOkman/PasswordGenerator.git
+* https://github.com/BrandonOkman/API_codeQuiz.git
 ## Screenshots and Video
 <img width="400" alt="Screen Shot 2021-12-18 at 6 06 04 PM" src="images/pic1.png">
 <img width="400" alt="Screen Shot 2021-12-18 at 6 11 35 PM" src="images/pic2.png">
