@@ -1,0 +1,255 @@
+/* Applies Google Fontto Entire Site*/
+
+body {
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Button CSS */
+
+button {
+    outline: none;
+    border: none;
+}
+
+
+/* Naxt and Back Btns */
+
+#nextBtn {
+    background-color: green;
+    padding: .5%;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-right: 5%;
+    margin-top: 5%;
+    height: 5rem;
+    position: absolute;
+    float: right;
+    right: 0;
+    font-size: 2em;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+#backBtn {
+    background-color: green;
+    cursor: pointer;
+    padding: .5%;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-left: 2%;
+    color: white;
+    margin-right: 2%;
+    height: 5rem;
+    position: absolute;
+    float: left;
+    left: 0;
+    font-size: 2em;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+#nextBtn:hover,
+#backBtn:hover {
+    background-color: rgb(0, 76, 0);
+}
+
+
+/* Start Btn */
+
+#startBtn {
+    outline: none;
+    border: none;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    right: 2em;
+    background-color: green;
+    color: white;
+    padding: 1%;
+    font-size: 2.2em;
+}
+
+#startBtn:hover {
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+    font-size: 2em;
+    background-color: rgb(1, 70, 1);
+}
+
+#scoreBtn {
+    outline: none;
+    border: none;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    right: 2em;
+    background-color: rgb(0, 23, 128);
+    color: white;
+    padding: 1%;
+    font-size: 2.2em;
+    margin-left: 5%;
+}
+
+#scoreBtn:hover {
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+    font-size: 2em;
+    background-color: rgb(0, 11, 61);
+}
+
+.scoreBoard {
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+#exit button {
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+    font-size: 1.5em;
+    cursor: pointer;
+    float: right;
+    background-color: red;
+    color: white;
+    margin-top: 1%;
+    margin-right: 2%;
+    border-radius: 5px;
+}
+
+#exit button:hover {
+    background-color: rgb(131, 0, 0);
+}
+
+#submit {
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+    font-size: 1.5em;
+    cursor: pointer;
+    float: right;
+    background-color: green;
+    color: white;
+    margin-top: 1%;
+    margin-right: 2%;
+    border-radius: 5px;
+}
+
+#submit:hover {
+    background-color: rgb(0, 70, 0);
+}
+
+
+/* Answers */
+
+.answers {
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 3%;
+    font-family: monospace;
+}
+
+.answers:hover {
+    background-color: rgb(61, 19, 100);
+    color: white;
+}
+
+
+/* END Button CSS END */
+
+
+/* Start Elements */
+
+.startBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.startTitle {
+    text-indent: 2em;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: .5%;
+    margin-top: .5%;
+}
+
+
+/* List Items */
+
+.li {
+    font-size: 1.5em;
+    display: block;
+    margin-right: 15%;
+    margin-left: 7%;
+    position: absolute;
+    margin-top: 5%;
+}
+
+
+/* Footer */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    font-weight: 900;
+}
+
+
+/* Current Item Class */
+
+.current {
+    right: 2em;
+    top: 0;
+    float: right;
+    z-index: 2;
+    position: absolute;
+}
+
+
+/* Timer */
+
+#timer {
+    font-size: 1.5em;
+    margin: 1em;
+    position: absolute;
+}
+
+
+/* Title */
+
+.title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+@media only screen and (max-width: 1024px) {
+    .li {
+        margin-top: 15%;
+    }
+    #timer {
+        margin-left: 50vw;
+        margin-right: 50vw;
+        margin-bottom: 5%;
+        position: relative;
+        text-align: center;
+    }
+    #startBtn {
+        font-size: 2em;
+        background-color: green;
+        color: white;
+        padding: 3%;
+        font-size: 2em;
+    }
+    #exit,
+    #finish {
+        display: flex;
+        justify-content: center;
+    }
+}
